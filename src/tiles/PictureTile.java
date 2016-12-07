@@ -1,4 +1,7 @@
+package tiles;
 import javax.swing.*;
+
+import utilities.GetPicture;
 
 import java.awt.*;
 

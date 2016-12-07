@@ -1,7 +1,8 @@
+package tiles;
 
 public class Bamboo1Tile extends PictureTile 
 {
-	private static final String FILE_NAME = "images/Sparrow.png";
+	private static final String FILE_NAME = "/images/Sparrow.png";
 	public Bamboo1Tile()
 	{
 		super("Bamboo");

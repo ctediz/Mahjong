@@ -1,3 +1,4 @@
+package tiles;
 import javax.swing.*;
 import java.awt.*;
 

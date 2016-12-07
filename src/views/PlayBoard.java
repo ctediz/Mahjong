@@ -1,4 +1,12 @@
+package views;
 import javax.swing.*;
+
+import tiles.Tile;
+import utilities.Fireworks;
+import utilities.GetPicture;
+import utilities.Help;
+import utilities.PlayClip;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -7,7 +15,7 @@ public class PlayBoard extends JPanel implements MouseListener
 	private final static int SEED_MOD = 100000;
 	private TileBoard board;
 	private ImageIcon background; // = new ImageIcon("images/dragon_bg.png");
-	private String file = "images/dragon_bg.png";
+	private String file = "/images/dragon_bg.png";
 	private Tile selected;
 	private TileScrollPane tsp;
 	private long seed;
@@ -28,9 +36,9 @@ public class PlayBoard extends JPanel implements MouseListener
 				new GetPicture(file).getImage().getImage().getScaledInstance(930, 540, Image.SCALE_FAST));
 		setVisible(true);	
 
-		rules = new Help("help/rules.html", "Rules");
+		rules = new Help("/help/rules.html", "Rules");
 		
-		removeClip = new PlayClip("audio/stone-scraping.wav");
+		removeClip = new PlayClip("/audio/stone-scraping.wav");
 		
 		initRemoved();
 		initFireworks();

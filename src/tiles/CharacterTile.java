@@ -1,3 +1,4 @@
+package tiles;
 import java.awt.*;
 
 //Vertical offset of (English) symbols is hard coded

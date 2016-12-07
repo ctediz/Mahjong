@@ -1,3 +1,4 @@
+package tiles;
 import java.awt.*;
 
 public class DragonWindCharacterTile extends CharacterTile 

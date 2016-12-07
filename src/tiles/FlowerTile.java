@@ -1,3 +1,4 @@
+package tiles;
 
 public class FlowerTile extends PictureTile
 {
@@ -12,16 +13,16 @@ public class FlowerTile extends PictureTile
 		switch(name)
 		{
 		case "Chrysanthemum":
-			setImage("images/Chrysanthemum.png");
+			setImage("/images/Chrysanthemum.png");
 			break;
 		case "Plum":
-			setImage("images/Plum.png");
+			setImage("/images/Plum.png");
 			break;
 		case "Orchid":
-			setImage("images/Orchid.png");
+			setImage("/images/Orchid.png");
 			break;
 		case "Bamboo":
-			setImage("images/Bamboo.png");
+			setImage("/images/Bamboo.png");
 			break;
 		default:
 			System.err.println("Bad flower: " + name);

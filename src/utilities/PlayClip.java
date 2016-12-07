@@ -1,3 +1,4 @@
+package utilities;
 
 
 import	java.net.*;
@@ -116,7 +117,7 @@ public class PlayClip implements LineListener
 	{
 		try
 		{
-			PlayClip clip = new PlayClip("audio/stone-scraping.wav", true);
+			PlayClip clip = new PlayClip("/audio/stone-scraping.wav", true);
 
 			clip.play();
 			Thread.sleep(2000);

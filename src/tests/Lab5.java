@@ -1,7 +1,18 @@
+package tests;
 import	java.awt.*;
 //import	java.awt.event.*;
 //import	java.util.*;
 import	javax.swing.*;
+
+import tiles.Bamboo1Tile;
+import tiles.BambooTile;
+import tiles.CharacterNumberTile;
+import tiles.CircleTile;
+import tiles.DragonWindCharacterTile;
+import tiles.FlowerTile;
+import tiles.Pancake;
+import tiles.SeasonTile;
+import tiles.WhiteDragonTile;
 
 
 public class Lab5 extends JFrame

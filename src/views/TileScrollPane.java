@@ -1,6 +1,12 @@
+package views;
 import	java.util.*;
 import	java.awt.*;
 import	javax.swing.*;
+
+import tiles.CharacterNumberTile;
+import tiles.FlowerTile;
+import tiles.SeasonTile;
+import tiles.Tile;
 
 
 public class TileScrollPane extends JScrollPane

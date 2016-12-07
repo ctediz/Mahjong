@@ -1,3 +1,4 @@
+package tiles;
 
 abstract public class RankTile extends Tile
 {

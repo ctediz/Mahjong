@@ -1,3 +1,4 @@
+package tiles;
 
 public class SeasonTile extends PictureTile 
 {
@@ -12,16 +13,16 @@ public class SeasonTile extends PictureTile
 		switch(name)
 		{
 		case "Spring":
-			setImage("images/Spring.png");
+			setImage("/images/Spring.png");
 			break;
 		case "Fall":	
-			setImage("images/Fall.png");
+			setImage("/images/Fall.png");
 			break;
 		case "Summer":
-			setImage("images/Summer.png");
+			setImage("/images/Summer.png");
 			break;
 		case "Winter":
-			setImage("images/Winter.png");
+			setImage("/images/Winter.png");
 			break;
 		default:
 			System.err.println("Bad season: " + name);
